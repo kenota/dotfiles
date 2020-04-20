@@ -172,4 +172,9 @@ function! myspacevim#after() abort
     nno <silent> <c-n> :Veonim next-problem<cr>
     nno <silent> <c-p> :Veonim prev-problem<cr>
   endif
+  " Confugre non-blinking cursor everywhere
+  set guicursor=a:block-blinkon0
 endfunction
+
+
+

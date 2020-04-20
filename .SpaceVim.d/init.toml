@@ -39,6 +39,9 @@ auto-completion-return-key-behavior = "complete"
 #name = 'lsp'
 
 [[layers]]
+name = 'lang#go'
+
+[[layers]]
 name = 'shell'
 default_position = 'bottom'
 default_height = 30
@@ -49,9 +52,9 @@ name = "denite"
 [[layers]]
 name = "git"
 
-[[custom_plugins]]
-name = "liuchengxu/vim-better-default"
+# [[custom_plugins]]
+# name = "liuchengxu/vim-better-default"
 
-[[custom_plugins]]
-name = 'chrisbra/NrrwRgn'
-
+# [[custom_plugins]]
+# name = 'chrisbra/NrrwRgn'
+#
